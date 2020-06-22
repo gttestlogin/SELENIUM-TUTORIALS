@@ -33,7 +33,7 @@ Assert.assertEquals(loginPageUrl, "http://demo.guru99.com/v4/");
  
 @Test
 public void TC_02_ValidatePageTitle() {
-// Login Page title
+//// Login Page title
 String loginPageTitle = driver.getTitle();
 Assert.assertEquals(loginPageTitle, "Guru99 Bank Home Page");
 }
